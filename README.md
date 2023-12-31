@@ -2,4 +2,5 @@
 > Source Code
 
 This is the source code of `The Pet Game` by Pricklesoft Studios 
-This is offical
+
+Made in Java with LibGDX
