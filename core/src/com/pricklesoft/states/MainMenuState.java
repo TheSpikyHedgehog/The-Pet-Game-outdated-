@@ -107,6 +107,5 @@ public class MainMenuState extends State{
         stage.act();
         sb.end();
     }
-
-// Test comment
+    
 }
