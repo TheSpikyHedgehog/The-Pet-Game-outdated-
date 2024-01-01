@@ -31,4 +31,10 @@ public class GameStateManager {
         this.states.peek().render(sb, stage);
     }
 
+    public void dispose() {
+        for (State state : states) {
+            state.dispose();
+        }
+    }
+
 }

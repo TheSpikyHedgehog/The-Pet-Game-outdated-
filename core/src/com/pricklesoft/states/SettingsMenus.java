@@ -22,4 +22,9 @@ public class SettingsMenus extends State{
     public void render(SpriteBatch sb, Stage stage) {
 
     }
+
+    @Override
+    public void dispose() {
+
+    }
 }
