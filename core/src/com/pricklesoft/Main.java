@@ -14,8 +14,6 @@ import com.pricklesoft.states.GameStateManager;
 import com.pricklesoft.states.MainMenuState;
 
 public class Main extends ApplicationAdapter {
-	public FreeTypeFontGenerator font;
-	public FreeTypeFontGenerator.FreeTypeFontParameter parameter;
 	public GameStateManager gsm;
 	public SpriteBatch spriteBatch;
 	public Stage stage;
@@ -43,6 +41,6 @@ public class Main extends ApplicationAdapter {
 	public void dispose() {
 		spriteBatch.dispose();
 		stage.dispose();
-		font.dispose();
+		gsm.dispose();
 	}
 }

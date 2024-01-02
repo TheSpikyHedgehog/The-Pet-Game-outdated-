@@ -111,7 +111,6 @@ public class MainMenuState extends State{
     @Override
     public void dispose() {
         this.gen.dispose();
-
     }
 
 }
