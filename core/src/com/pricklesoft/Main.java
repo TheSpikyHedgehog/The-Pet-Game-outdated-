@@ -28,6 +28,7 @@ public class Main extends ApplicationAdapter {
 		this.gsm.push(new MainMenuState(this.gsm, this.stage));
 		Gdx.app.log("GAME", "Game has been launched.");
 		Gdx.app.log("WARNING", "Resizing the window can lead to many different bugs.");
+
 	}
 
 	@Override
